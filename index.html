@@ -37,7 +37,10 @@
       <div><!--Inputs and Execution for JavaScript #4-->
         <p>04-functionCondition: Select a number from 1-4 and see what the dog says</p>
         <input name="04-var" id="04-var" type="number">
-        <button onclick="dogBark()">04-functionCondition</button>
+        <script>
+          var bark = document.getElementById("04-var").value
+        </script>
+        <button onclick=dogBark(bark)>04-functionCondition</button>
       </div>
 
       <div><!--Execution for JavaScript #5-->

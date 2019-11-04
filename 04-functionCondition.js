@@ -1,5 +1,5 @@
-function dogBark(){
-  var bark = document.getElementById("04-var").value
+function dogBark(bark){
+  //var bark = document.getElementById("04-var").value
 
   //What the dog says (when 1 - 4 are inputted)
   if(bark == 1){
